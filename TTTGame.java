@@ -45,7 +45,7 @@ public class TTTGame {
         } else if (sel.equals("2")) {
             HelpScreen();
         } else if (sel.equals("3")) {
-            System.out.println("Goodbye.");
+            System.out.println("Thanks for playing! \n");
             System.exit(0);
         }
         return;
@@ -84,7 +84,7 @@ public class TTTGame {
         if (choice.equals("1")) {
             MainMenu();
         } else if (choice.equals("2")) {
-            System.out.print("Goodbye \n");
+            System.out.print("Thanks for playing! \n");
             System.exit(0);
         };
 
@@ -142,7 +142,7 @@ public class TTTGame {
                 } else if (choice.equals("2")) {
                     MainMenu();
                 } else if (choice.equals("3")) {
-                    System.out.print("Goodbye \n");
+                    System.out.print("Thanks for playing! \n");
                     System.exit(0);
                 }
             } else if(r1[0] != ' ' && r1[1] != ' ' && r1[2] != ' ' && r2[0] != ' ' && r2[1] != ' ' && r2[2] != ' ' && r3[0] != ' ' && r3[1] != ' ' && r3[2] != ' ') {
