@@ -161,7 +161,7 @@ public class TTTGame {
                     } else if (choice.equals("2")) {
                         MainMenu();
                     } else if (choice.equals("3")) {
-                        System.out.print("Goodbye \n");
+                        System.out.print("Thanks for playing! \n");
                         System.exit(0);
                     }
                     
